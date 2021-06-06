@@ -129,8 +129,10 @@ plugins=(... git)
 | grba                 | git rebase --abort                                                                                                               |
 | grbc                 | git rebase --continue                                                                                                            |
 | grbd                 | git rebase $(git_develop_branch)                                                                                                 |
-| grbi                 | git rebase -i                                                                                                                    |
+| grbi                 | git rebase --interactive                                                                                                         |
 | grbm                 | git rebase $(git_main_branch)                                                                                                    |
+| grbmi                | git rebase $(git_main_branch) --interactive                                                                                      |
+| grbmia               | git rebase $(git_main_branch) --interactive --autosquash                                                                         |
 | grbom                | git rebase origin/$(git_main_branch)                                                                                             |
 | grbo                 | git rebase --onto                                                                                                                |
 | grbs                 | git rebase --skip                                                                                                                |
