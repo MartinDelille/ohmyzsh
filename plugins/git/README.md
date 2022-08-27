@@ -49,6 +49,7 @@ plugins=(... git)
 | gcl                  | git clone --recurse-submodules                                                                                                   |
 | gccd                 | git clone --recurse-submodules "<span>$</span>@" && cd "<span>$</span>(basename <span>$</span>_ .git)"                           |
 | gclean               | git clean -id                                                                                                                    |
+| gcfx                 | git commit --fixup                                                                                                               |
 | gpristine            | git reset --hard && git clean -dffx                                                                                              |
 | gcm                  | git checkout $(git_main_branch)                                                                                                  |
 | gcd                  | git checkout $(git_develop_branch)                                                                                               |
